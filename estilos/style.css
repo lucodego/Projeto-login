@@ -15,7 +15,7 @@ Marrom escuro:#441600
     box-sizing: border-box;
 }
 body, html{
-    background-color: #C0A987;
+    background-color: #674F33;
     height: 100vh;
     width: 100vw;
 }
@@ -35,6 +35,8 @@ section#login{
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
+    transition: width 0.3s, heigth 0.3s;
+    transition-timing-function: ease;
 }
 section#login div#imagem{
     background: #C0A987 url(../imagens/pexels-lenzatic-26937707.jpg) no-repeat;
