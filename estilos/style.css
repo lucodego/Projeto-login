@@ -29,12 +29,21 @@ section#login{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    overflow: hidden;
     background-color: white;
     width: 250px;
     height: 500px;
     border-radius: 20px;
-
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
 }
-section#login div#img{
-    
+section#login div#imagem{
+    background: #C0A987 url(../imagens/pexels-lenzatic-26937707.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 200px;
+    display: block;
+}
+section#login div#form{
+    padding: 10px;
+    display: block;
 }
